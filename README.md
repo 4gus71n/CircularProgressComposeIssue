@@ -12,3 +12,8 @@ I think there is a bug with the CircularProgressIndicator if it is ever used wit
 
 Expected: You see the toast go off.
 Actual: The click even seems to be completely ignored, not even the ripple effect gets triggered.
+
+### Demo vid
+
+https://github.com/user-attachments/assets/52d5b019-26c1-4743-a281-c76af64aa83f
+
