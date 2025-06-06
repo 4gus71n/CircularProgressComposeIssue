@@ -1,6 +1,6 @@
 ### CircularProgressIndicator bug
 
-I think there is a bug with the CircularProgressIndicator if it is ever used within an `AndroidFragment`, it freezes all other Composables `onClick` callbacks. 
+I think there is a bug with the `CircularProgressIndicator` if it is ever used within an `AndroidFragment`, it freezes all other Composables `onClick` callbacks. 
 
 ### Repro steps
 
@@ -17,3 +17,6 @@ Actual: The click even seems to be completely ignored, not even the ripple effec
 
 https://github.com/user-attachments/assets/52d5b019-26c1-4743-a281-c76af64aa83f
 
+### Notes
+
+- As soon as we comment out the `CircularProgressIndicator` everything works fine.
